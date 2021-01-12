@@ -11,9 +11,11 @@ AWS.config.update({
 
 const queues = Object.values(jobs).map(job => ({
   bull: new Queue(job.key, {
-    host: process.env.REDIS_HOST,
-    port: process.env.REDIS_PORT,
-    password: process.env.REDIS_PASSWORD,
+    redis: {
+      host: process.env.REDIS_HOST,
+      port: process.env.REDIS_PORT,
+      password: process.env.REDIS_PASSWORD
+    },
     limiter: {
       max: 14,
       duration: 1000
