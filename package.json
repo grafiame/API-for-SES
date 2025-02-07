@@ -1,6 +1,6 @@
 {
   "name": "grafiame-email-service",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "this is the server that handles sending email from grafiame",
   "main": "index.js",
   "scripts": {
@@ -14,29 +14,30 @@
   "author": "Grafiame",
   "license": "MIT",
   "dependencies": {
-    "aws-sdk": "^2.822.0",
-    "body-parser": "^1.19.0",
-    "bull": "^3.20.0",
-    "bull-board": "^1.2.0",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "joi": "^17.3.0"
+    "aws-sdk": "^2.1692.0",
+    "body-parser": "^1.20.3",
+    "bull": "^3.29.3",
+    "bull-board": "^1.7.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "joi": "^17.13.3"
   },
   "devDependencies": {
-    "@babel/cli": "^7.12.10",
-    "@babel/core": "^7.12.10",
-    "@babel/preset-env": "^7.12.11",
-    "@babel/register": "^7.12.10",
-    "eslint": "^7.17.0",
-    "eslint-config-prettier": "^7.1.0",
-    "eslint-config-standard": "^16.0.2",
-    "eslint-plugin-import": "^2.22.1",
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.7",
+    "@babel/preset-env": "^7.26.7",
+    "@babel/register": "^7.25.9",
+    "eslint": "^9.19.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^3.3.1",
-    "eslint-plugin-promise": "^4.2.1",
-    "nodemon": "^2.0.7",
-    "prettier": "^2.2.1",
-    "prettier-config-standard": "^1.0.1",
-    "sucrase": "^3.17.0"
-  }
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-promise": "^7.2.1",
+    "nodemon": "^3.1.9",
+    "prettier": "^3.4.2",
+    "prettier-config-standard": "^7.0.0",
+    "sucrase": "^3.35.0"
+  },
+  "packageManager": "yarn@4.6.0+sha512.5383cc12567a95f1d668fbe762dfe0075c595b4bfff433be478dbbe24e05251a8e8c3eb992a986667c1d53b6c3a9c85b8398c35a960587fbd9fa3a0915406728"
 }
